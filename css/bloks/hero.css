@@ -1,19 +1,35 @@
 .hero {
     margin-top: 80px;
-    position: relative; /* Добавляем для правильного позиционирования */
 }
 
-.hero .container {
-    display: flex; /* Размещаем содержимое в ряд */
-    align-items: center; /* Выравниваем по центру */
-    justify-content: space-between; /* Распределяем пространство между элементами */
+.hero .hero-inner {
+
+}
+
+
+.hero .hero-inner .title{
+
+}
+
+.hero .hero-inner .description{
+
+}
+
+.hero .hero-inner .input-wrapper{
+
+}
+
+
+.hero .hero-inner .input-wrapper .input-email{
+
+}
+
+
+.hero .hero-inner .input-wrapper .input-btn{
+
 }
 
 .hero .hero-img {
-    background-image: url('../../images/hero-pic.png'); /* Проверьте правильность пути */
-    width: 382px;
-    height: 364px;
-    background-size: contain; /* Чтобы изображение помещалось в блок */
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url('../../images/hero-pic.png');
 }
+
