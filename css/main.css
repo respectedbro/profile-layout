@@ -5,3 +5,6 @@
 @import "./base/base.css";
 /*blocks*/
 @import './bloks/header.css';
+@import "./bloks/hero.css";
+@import "./bloks/about.css";
+@import "./bloks/experience.css";

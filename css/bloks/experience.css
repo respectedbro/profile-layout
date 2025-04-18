@@ -1,0 +1,99 @@
+.experience {
+
+}
+
+.experience .experience-wrapper {
+
+}
+
+.experience .experience-wrapper {
+
+}
+
+.experience .experience-wrapper .work-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 0.75px solid #333;
+    border-radius: 24px;
+    padding: 17px;
+    max-width: 545px;
+    width: 100%;
+}
+.experience .experience-wrapper .work-experience h3{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.08333;
+    color: #aadb6b;
+}
+
+.experience .experience-wrapper .work-experience .job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+
+}
+
+.experience .experience-wrapper .work-experience .job-list .job {
+
+}
+
+.experience .experience-wrapper .profile {
+    display: none;
+    /*display: flex; */ /*TODO: поставь на место*/
+    gap: 80px;
+    border: 2px solid #333;
+    border-radius: 24px;
+    padding: 29px 36px;
+    max-width: 658px;
+}
+
+
+.experience .experience-wrapper .profile .profile-img {
+
+}
+
+.experience .experience-wrapper .profile .profile-info {
+    max-width: 251px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 29px;
+}
+
+.experience .experience-wrapper .profile .profile-info .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience .experience-wrapper .profile .profile-info .info .name {
+    font-weight: 800;
+    font-size: 31px;
+    line-height: 1.1;
+}
+
+.experience .experience-wrapper .profile .profile-info .info .description {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.16667;
+}
+
+.experience .experience-wrapper .profile .profile-info .write-btn {
+    padding: 8px 6px;
+    max-width: 106px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 8px;
+    justify-content: end;
+    gap: 25px;
+}
+
+
+.experience .experience-wrapper .profile .profile-info .write-btn .arrow-min {
+    width: 11px;
+    height: 11px;
+    background-image: url('../../images/icons/arrow-min-icon.svg');
+}
+

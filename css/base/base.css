@@ -16,3 +16,17 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.container .btn {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+    background-color: var(--accent);
+    align-items: center;
+    color: #000;
+}
+
+.container .btn .arrow{
+    display: block;
+}
