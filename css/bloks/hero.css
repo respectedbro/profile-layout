@@ -73,6 +73,7 @@
     font-size: 18px;
     display: flex;
     justify-content: space-between;
+    background-color: var(--accent);
 }
 
 
