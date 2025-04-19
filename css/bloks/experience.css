@@ -1,13 +1,17 @@
-.experience {
-    margin-top: 80px;
-}
-
 .experience .experience-wrapper {
-display: flex;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
-.experience .experience-wrapper .work-experience {
+.experience .experience-wrapper .experience-row {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 135px;
+}
+
+.experience .experience-wrapper .experience-row .work-experience {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -19,31 +23,31 @@ display: flex;
     margin-top: 106px;
 }
 
-.experience .experience-wrapper .work-experience h3 {
+.experience .experience-wrapper .experience-row .work-experience h3 {
     font-weight: 600;
     font-size: 17px;
     line-height: 1.08333;
     color: #aadb6b;
 }
 
-.experience .experience-wrapper .work-experience .job-list {
+.experience .experience-wrapper .experience-row .work-experience .job-list {
     display: flex;
     flex-direction: column;
     gap: 21px;
 
 }
 
-.experience .experience-wrapper .work-experience .job-list .job {
+.experience .experience-wrapper .experience-row .work-experience .job-list .job {
 
 }
 
-.experience .experience-wrapper .work-experience .job-list .job .company {
+.experience .experience-wrapper .experience-row .work-experience .job-list .job .company {
     font-size: 17px;
     line-height: 1.16667;
 }
 
 
-.experience .experience-wrapper .work-experience .job-list .job .company .period {
+.experience .experience-wrapper .experience-row .work-experience .job-list .job .company .period {
     font-family: "Manrope", sans-serif;
     font-size: 13px;
     line-height: 1.44444;
@@ -51,7 +55,7 @@ display: flex;
 }
 
 
-.experience .experience-wrapper .work-experience .job-list .job .company-link a {
+.experience .experience-wrapper .experience-row .work-experience .job-list .job .company-link a {
     font-size: 13px;
     line-height: 1.44444;
     text-decoration: underline;
@@ -59,14 +63,14 @@ display: flex;
 }
 
 
-.experience .experience-wrapper .work-experience .job-list .job .position {
+.experience .experience-wrapper .experience-row .work-experience .job-list .job .position {
     font-size: 13px;
     line-height: 1.44444;
 }
 
 /*=======================*/
 
-.experience .experience-wrapper .item {
+.experience .experience-wrapper .experience-row .item {
     border-radius: 21px;
     padding: 20px;
     max-width: 220px;
@@ -74,29 +78,29 @@ display: flex;
     background-color: #ffafb0;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 15.72px;
 }
 
-.experience .experience-wrapper .item .project {
+.experience .experience-wrapper .experience-row .item .project {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.experience .experience-wrapper .item .project .project-name{
+.experience .experience-wrapper .experience-row .item .project .project-name {
     font-weight: 700;
     font-size: 27px;
     line-height: 1.28571;
     color: #000;
 }
 
-.experience .experience-wrapper .item .project .project-description{
+.experience .experience-wrapper .experience-row .item .project .project-description {
     font-size: 11px;
     line-height: 1.44444;
     color: #000;
 }
 
-.experience .experience-wrapper .item .project .show-project {
+.experience .experience-wrapper .experience-row .item .project .show-project {
     border: 0.66px solid #333;
     border-radius: 12px;
     padding: 11px 9px;
@@ -109,7 +113,7 @@ display: flex;
     color: #000;
 }
 
-.experience .experience-wrapper .item .project .show-project .arrow{
+.experience .experience-wrapper .experience-row .item .project .show-project .arrow {
     background-image: url('../../images/icons/arriwal-arrow.svg');
     width: 16px;
     height: 17px;
@@ -117,22 +121,24 @@ display: flex;
 
 
 /*=======================*/
-.experience .experience-wrapper .profile {
-    display: none;
-    /*display: flex; */ /*TODO: поставь на место*/
+
+.experience .experience-wrapper .experience-row .profile {
+    position: absolute;
+    display: flex; /*TODO: поставь на место*/
     gap: 80px;
+    left: 17%;
+    top: 61px;
     border: 2px solid #333;
     border-radius: 24px;
-    padding: 29px 36px;
+    padding: 29.21px 72.48px;
     max-width: 658px;
+    width: 100%;
+    max-height: 241px;
+    height: 100%;
+    background-color: #140e17;
 }
 
-
-.experience .experience-wrapper .profile .profile-img {
-
-}
-
-.experience .experience-wrapper .profile .profile-info {
+.experience .experience-wrapper .experience-row .profile .profile-info {
     max-width: 251px;
     width: 100%;
     display: flex;
@@ -141,25 +147,25 @@ display: flex;
     gap: 29px;
 }
 
-.experience .experience-wrapper .profile .profile-info .info {
+.experience .experience-wrapper .experience-row .profile .profile-info .info {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.experience .experience-wrapper .profile .profile-info .info .name {
+.experience .experience-wrapper .experience-row .profile .profile-info .info .name {
     font-weight: 800;
     font-size: 31px;
     line-height: 1.1;
 }
 
-.experience .experience-wrapper .profile .profile-info .info .description {
+.experience .experience-wrapper .experience-row .profile .profile-info .info .description {
     font-weight: 500;
     font-size: 10px;
     line-height: 1.16667;
 }
 
-.experience .experience-wrapper .profile .profile-info .write-btn {
+.experience .experience-wrapper .experience-row .profile .profile-info .write-btn {
     padding: 8px 6px;
     max-width: 106px;
     border-radius: 8px;
@@ -171,9 +177,38 @@ display: flex;
 }
 
 
-.experience .experience-wrapper .profile .profile-info .write-btn .arrow-min {
+.experience .experience-wrapper .experience-row .profile .profile-info .write-btn .arrow-min {
     width: 11px;
     height: 11px;
     background-image: url('../../images/icons/arrow-min-icon.svg');
 }
+
+/*=======================*/
+
+.experience .experience-wrapper .try-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px solid #333;
+    border-radius: 32px;
+    padding: 24px;
+    width: 100%;
+}
+
+.experience .experience-wrapper .try-experience .info {
+    font-size: 24px;
+    line-height: 1.16667;
+}
+
+.experience .experience-wrapper .try-experience .try-link {
+    align-self: flex-end;
+}
+.experience .experience-wrapper .try-experience .try-link a {
+    max-width: 245px;
+    width: 100%;
+    color: #fff;
+
+}
+
+
 
