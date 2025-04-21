@@ -1,81 +1,78 @@
 .header {
-    padding: 18px 24px;
-    background-color: #333;
-    border: 1px solid #000;
-    border-radius: 32px;
-    max-width: 1018px;
-    width: 100%;
-    margin: 64px auto 0 auto;
+  padding: 18px 24px;
+  background-color: #333;
+  border: 1px solid #000;
+  border-radius: 32px;
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.header .header-row {
-    display: flex;
-    justify-content: space-between;
+.header-left {
+  display: flex;
+  gap: 41px;
 }
 
-.header .header-row .header-left {
-    display: flex;
-    gap: 41px;
+.header-logo {
+  border-radius: 16px;
+  padding: 8px 16px;
+  background-color: var(--accent);
+  color: #000;
 }
 
-.header .header-row .header-left .header-logo {
-    border-radius: 16px;
-    padding: 8px 16px;
-    background-color: var(--accent);
-    color: #000;
+.header-nav {
+  display: flex;
 }
 
-
-.header .header-row .header-left .header-nav {
-    display: flex;
-    gap: 24px;
-    align-items: center;
+.header-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
 }
 
-.header .header-row .header-left .header-nav .nav-item .nav-link {
-    font-size: 20px;
-    color: #fff;
+.nav-link {
+  font-size: 20px;
+  color: #fff;
 }
 
-.header .header-row .header-user-link {
-    align-items: center;
-    display: flex;
-    border-radius: 16px;
-    padding: 0 16px;
-    background-color: #ebebeb;
+.header-user-link {
+  align-items: center;
+  display: flex;
+  border-radius: 16px;
+  padding: 0 16px;
+  background-color: #ebebeb;
 }
 
-.header .header-row .burger {
-    border-radius: 16px;
-    padding: 0 16px;
-    width: 56px;
-    height: 40px;
-    background-color: #76757b;
-    align-items: center;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
+.burger {
+  border-radius: 16px;
+  padding: 0 16px;
+  width: 56px;
+  height: 40px;
+  background-color: #76757b;
+  align-items: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
 }
 
-.header .header-row .burger span {
-    display: block;
-    width: 14px;
-    height: 2px;
-    background-color: #fff;
+.burger span {
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #fff;
 }
-
 
 @media screen and (max-width: 1024px) {
-    .header .header-row .header-left .header-nav {
-        display: none;
-    }
+  .header-nav {
+    display: none;
+  }
 
-    .header .header-row .header-user-link {
-        display: none;
-    }
+  .header-user-link {
+    display: none;
+  }
 
-    .header .header-row .burger {
-        display: flex;
-    }
+  .burger {
+    display: flex;
+  }
 }

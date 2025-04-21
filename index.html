@@ -8,53 +8,52 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+<header class="header container">
 
-<header class="header">
-    <div class="container">
-        <nav class="header-row">
-            <div class="header-left">
-                <a class="header-logo logo">
-                    <img src="./images/logo/logo.svg" alt="logo">
-                    QUICKLINK
-                </a>
-
-                <ul class="header-nav">
-                    <li class="nav-item"><a class="nav-link" href="#">Что это?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Как это выглядит?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Сколько стоит?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
-                </ul>
-            </div>
-            <a class="burger" href="#">
-                <span></span>
-                <span></span>
-            </a>
-            <a class="header-user-link" href="#">
-                <img src="./images/icons/user-icon.svg" alt="user-icon">
-            </a>
+    <div class="header-left">
+        <a class="header-logo logo">
+            <img src="./images/logo/logo.svg" alt="logo">
+            QUICKLINK
+        </a>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li class="nav-item"><a class="nav-link" href="#">Что это?</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Как это выглядит?</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Сколько стоит?</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+            </ul>
         </nav>
     </div>
+    <a class="burger" href="#">
+        <span></span>
+        <span></span>
+    </a>
+    <a class="header-user-link" href="#">
+        <img src="./images/icons/user-icon.svg" alt="user-icon">
+    </a>
 </header>
 <main class="main">
-    <section class="hero">
-        <div class="container">
-            <div class="hero-inner">
+    <section class="hero container">
+        <div class="hero-info">
+
+            <div class="title-block">
                 <div class="title">
-                    <p>Все, что тебе </p>
-                    <p>нужно</p>
-                    <p>В одной ссылке</p>
+                    <h1>Всё, что тебе нужно <br> В одной ссылке</h1>
                 </div>
-                <div class="description">Присоединяйся к более 50 млн. людей <br> и делись всем, что ты создаешь,
+                <div class="description">Присоединяйся к более 50 млн. людей и делись всем, что ты создаешь,
                     курируешь
                     или
                     продаешь онлайн. Все в одной ссылке.
                 </div>
-                <div class="input-wrapper">
-                    <input class="input-email" type="email" placeholder="your@mail.com">
-                    <button class="input-btn btn">Создать страницу <span class="arrow"></span></button>
-                </div>
-                <div class="hero-img"></div>
             </div>
+
+            <div class="input-wrapper">
+                <input class="input-email" type="email" placeholder="your@mail.com">
+                <button class="input-btn btn">Создать страницу <span class="arrow"></span></button>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="./images/hero-pic.png" alt="hero-picture">
         </div>
     </section>
     <section class="about">
@@ -64,14 +63,14 @@
                     <div class="element-img">
                         <img src="./images/design-pic/custom-el-img.svg" alt="element-image">
                     </div>
-                    <div class="title">Кастомные элементы</div>
+                    <div class="title"><h3>Кастомные элементы</h3></div>
                     <div class="description">Создавай и кастомизируй свой профиль за считанные минуты!</div>
                 </div>
                 <div class="about-card">
                     <div class="analytics-img">
                         <img src="./images/design-pic/analytics-img.svg" alt="analytics-image">
                     </div>
-                    <div class="title">Подробная аналитика</div>
+                    <div class="title"><h3> Подробная аналитика</h3></div>
                     <div class="description">Отслеживай информацию о том, кто и откуда интересовался твоим профилем
                     </div>
                 </div>
@@ -79,7 +78,7 @@
                     <div class="short-link-img">
                         <img src="./images/design-pic/short-link-img.svg" alt="short-link-image">
                     </div>
-                    <div class="title">Короткая ссылка</div>
+                    <div class="title"><h3>Короткая ссылка</h3></div>
                     <div class="description">Красивая персональная ссылка на профиль бесплатно!</div>
                 </div>
             </div>
@@ -89,80 +88,13 @@
         <div class="container">
             <div class="experience-wrapper">
                 <div class="experience-row">
-<!--                    <div class="profile">-->
-<!--                        <div class="profile-img">-->
-<!--                            <img src="images/profile-avatar.png" alt="profile-avatar">-->
-<!--                        </div>-->
-<!--                        <div class="profile-info">-->
-<!--                            <div class="info">-->
-<!--                                <div class="name">Майкл Найт</div>-->
-<!--                                <div class="description">Помогу превратить программирование из хобби в прибыльную-->
-<!--                                    профессию-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <button class="write-btn btn">Написать-->
-<!--                                <span class="arrow-min arrow"></span>-->
-<!--                            </button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="work-experience">-->
-<!--                        <h3>опыт работы</h3>-->
-<!--                        <div class="job-list">-->
-<!--                            <div class="job">-->
-<!--                                <div class="company">-->
-<!--                                    <span>Arrival</span>-->
-<!--                                    <span class="period">(2021-по наст. время)</span>-->
-<!--                                </div>-->
-<!--                                <div class="company-link">-->
-<!--                                    <a href="https://arrival.com">arrival.com</a>-->
-<!--                                </div>-->
-<!--                                <div class="position">Senior Front-End разработчик</div>-->
-<!--                            </div>-->
-<!--                            <div class="job">-->
-<!--                                <div class="company">-->
-<!--                                    <span>Apple</span>-->
-<!--                                    <span class="period">(2018-2021)</span>-->
-<!--                                </div>-->
-<!--                                <div class="company-link">-->
-<!--                                    <a href="https://apple.com">apple.com</a>-->
-<!--                                </div>-->
-<!--                                <div class="position">Middle+ Front-End разработчик</div>-->
-<!--                            </div>-->
-<!--                            <div class="job">-->
-<!--                                <div class="company">-->
-<!--                                    <span>IBM</span>-->
-<!--                                    <span class="period">(2017-2018)</span>-->
-<!--                                </div>-->
-<!--                                <div class="company-link">-->
-<!--                                    <a href="https://ibm.com">ibm.com</a>-->
-<!--                                </div>-->
-<!--                                <div class="position">Middle Front-End разработчик</div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="item">-->
-<!--                        <div class="project-photo">-->
-<!--                            <img src="images/arrival.png" alt="arrival">-->
-<!--                        </div>-->
-<!--                        <div class="project">-->
-<!--                            <h2 class="project-name">Arrival Dashboard</h2>-->
-<!--                            <p class="project-description">В качестве лид разработчика участвовал в создании и-->
-<!--                                развитии-->
-<!--                                систем-->
-<!--                                аналитики для британского стартапа</p>-->
-<!--                            <button class="show-project btn">Посмотреть-->
-<!--                                <span class="arrow"></span>-->
-<!--                            </button>-->
-<!--                        </div>-->
-<!--                    </div>-->
                     <img src="images/exp.png" alt="exp-image">
                 </div>
                 <div class="try-experience">
                     <div class="info">
-                        Большое количество кастомизируемых элементов поможет лучше рассказать миру о себе и привлечь
-                        новых
-                        клиентов
+                        <h4>Большое количество кастомизируемых элементов поможет лучше рассказать миру о себе и привлечь
+                            новых
+                            клиентов</h4>
                     </div>
                     <div class="try-link black-link">
                         <a href="">Попробовать бесплатно</a>
@@ -171,19 +103,14 @@
             </div>
         </div>
     </section>
-
-
-
-
     <section class="tariff">
         <div class="container">
             <div class="tariff-wrapper">
                 <div class="title">тарифы</div>
                 <div class="tariff-box">
                     <div class="tariff-item">
-
                         <div class="tariff-info">
-                            <div class="info-title">базовый</div>
+                            <div class="info-title"><h4>базовый</h4></div>
                             <div class="info-price">0₽<span>/мес</span></div>
                             <div class="info-about">Для тех, кто хочет попробовать сервис</div>
                             <ul class="info-list">
@@ -207,7 +134,7 @@
                             <div class="abs-btn black-link">
                                 Лучший выбор
                             </div>
-                            <div class="info-title">премиум</div>
+                            <div class="info-title"><h4>премиум</h4></div>
                             <div class="info-price">250₽<span>/мес</span></div>
                             <div class="info-about">Для продвинутых пользователей</div>
                             <ul class="info-list">
@@ -241,7 +168,7 @@
                     <li>
                         <div class="list-title">
                             <h4>Зачем мне нужен Quicklink?</h4>
-                                <img src="./images/icons/faq-icon-minus.svg" alt="faq-icon-minus">
+                            <img src="./images/icons/faq-icon-minus.svg" alt="faq-icon-minus">
                         </div>
                         <div class="list-description">
                             <p>Это единая ссылка, которую вы можете использовать, чтобы связать вашу аудиторию со всем,
@@ -254,13 +181,12 @@
                                 Instagram, включить в подписи к электронной почте и даже отобразить в виде QR-кода,
                                 чтобы
                                 ваша офлайн-аудитория связалась с вами онлайн.</p>
-
                         </div>
                     </li>
                     <li>
                         <div class="list-title">
                             <h4>Как я могу использовать свой профиль?</h4>
-                                <img src="./images/icons/faq-icon-plus.svg" alt="faq-icon-plus">
+                            <img src="./images/icons/faq-icon-plus.svg" alt="faq-icon-plus">
                         </div>
                     </li>
                     <li>
@@ -272,13 +198,13 @@
                     <li>
                         <div class="list-title">
                             <h4>Что дает премиум подписка?</h4>
-                                <img src="./images/icons/faq-icon-plus.svg" alt="faq-icon-plus">
+                            <img src="./images/icons/faq-icon-plus.svg" alt="faq-icon-plus">
                         </div>
                     </li>
                     <li>
                         <div class="list-title">
                             <h4>Какие ограничения есть на базовом тарифе?</h4>
-                                <img src="./images/icons/faq-icon-plus.svg" alt="faq-icon-plus">
+                            <img src="./images/icons/faq-icon-plus.svg" alt="faq-icon-plus">
                         </div>
                     </li>
                 </ul>
