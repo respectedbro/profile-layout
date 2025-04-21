@@ -10,6 +10,7 @@
 
 .hero .hero-inner .title {
     position: relative;
+    display: inline-block;
 }
 
 .hero .hero-inner .title p {
@@ -78,7 +79,7 @@
 }
 
 
-.hero .hero-inner .input-wrapper .input-btn .arrow{
+.hero .hero-inner .input-wrapper .input-btn .arrow {
     background-image: url('../../images/icons/arrow-icon.svg');
     width: 24px;
     height: 24px;
@@ -86,7 +87,7 @@
 
 .hero .hero-inner .hero-img {
     position: absolute;
-    left: 52%;
+    left: 54%;
     top: 41%;
     transform: translateY(-50%);
     width: 444px;
@@ -94,7 +95,58 @@
     background-image: url('../../images/hero-pic.png');
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 1;
+    z-index: 0;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .hero .hero-inner .hero-img {
+        opacity: 0.1;
+        left: 46%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero .hero-inner .hero-img {
+        left: 40%;
+        top: 41%;
+    }
+
+    .hero .hero-inner .title p {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.28571;
+    }
+
+    .hero .hero-inner .title::after {
+        top: 0;
+        right: 25px;
+        width: 34px;
+        height: 30px;
+        background-image: url('../../images/design-pic/salyut-mob.svg');
+    }
+
+    .hero .hero-inner .title::before {
+        bottom: -20px;
+        left: 0;
+        width: 100.69px;
+        height: 20.78px;
+        background-image: url(../../images/design-pic/line-mobile.svg);
+    }
+
+        .hero .hero-inner .hero-img {
+            left: 30%;
+            top: 17%;
+            background-image: url('../../images/hero-pic-mobile.png');
+            width: 222px;
+            height: 227px;
+        }
+
+    .hero .hero-inner .input-wrapper {
+        flex-wrap: wrap;
+    }
+
+}
+
 
 

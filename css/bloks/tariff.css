@@ -14,9 +14,9 @@
 }
 
 .tariff .tariff-box {
-    position: relative;
     display: flex;
     justify-content: space-between;
+    gap: 32px;
 }
 
 .tariff .tariff-box .tariff-item {
@@ -32,8 +32,8 @@
 
 .tariff .tariff-box .tariff-item .abs-btn{
     position: absolute;
-    top: -25px;
-    right: 20px;
+    top: -57px;
+    right: 0;
     padding: 14px;
     max-width: 144px;
     font-weight: 600;
@@ -45,7 +45,6 @@
     display: flex;
     flex-direction: column;
     gap: 18px;
-    max-height: 299px;
     height: 100%;
 }
 
@@ -97,11 +96,6 @@
     height: 24px;
 }
 
-.tariff .tariff-box .tariff-item .tariff-btn {
-
-
-}
-
 .tariff .tariff-box .tariff-item .tariff-btn .tariff-link {
     display: block;
     color: #fff;
@@ -109,6 +103,16 @@
     max-width: 200px;
     width: 100%;
     text-align: center;
+}
 
+.rel {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .tariff .tariff-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 

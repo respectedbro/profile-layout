@@ -122,66 +122,66 @@
 
 /*=======================*/
 
-.experience .experience-wrapper .experience-row .profile {
-    position: absolute;
-    display: flex; /*TODO: поставь на место*/
-    gap: 80px;
-    left: 17%;
-    top: 61px;
-    border: 2px solid #333;
-    border-radius: 24px;
-    padding: 29.21px 72.48px;
-    max-width: 658px;
-    width: 100%;
-    max-height: 241px;
-    height: 100%;
-    background-color: #140e17;
-}
+/*.experience .experience-wrapper .experience-row .profile {*/
+/*    position: absolute;*/
+/*    display: flex;*/
+/*    gap: 80px;*/
+/*    left: 17%;*/
+/*    top: 61px;*/
+/*    border: 2px solid #333;*/
+/*    border-radius: 24px;*/
+/*    padding: 29.21px 72.48px;*/
+/*    max-width: 658px;*/
+/*    width: 100%;*/
+/*    max-height: 241px;*/
+/*    height: 100%;*/
+/*    background-color: #140e17;*/
+/*}*/
 
-.experience .experience-wrapper .experience-row .profile .profile-info {
-    max-width: 251px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 29px;
-}
+/*.experience .experience-wrapper .experience-row .profile .profile-info {*/
+/*    max-width: 251px;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    gap: 29px;*/
+/*}*/
 
-.experience .experience-wrapper .experience-row .profile .profile-info .info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+/*.experience .experience-wrapper .experience-row .profile .profile-info .info {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 10px;*/
+/*}*/
 
-.experience .experience-wrapper .experience-row .profile .profile-info .info .name {
-    font-weight: 800;
-    font-size: 31px;
-    line-height: 1.1;
-}
+/*.experience .experience-wrapper .experience-row .profile .profile-info .info .name {*/
+/*    font-weight: 800;*/
+/*    font-size: 31px;*/
+/*    line-height: 1.1;*/
+/*}*/
 
-.experience .experience-wrapper .experience-row .profile .profile-info .info .description {
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 1.16667;
-}
+/*.experience .experience-wrapper .experience-row .profile .profile-info .info .description {*/
+/*    font-weight: 500;*/
+/*    font-size: 10px;*/
+/*    line-height: 1.16667;*/
+/*}*/
 
-.experience .experience-wrapper .experience-row .profile .profile-info .write-btn {
-    padding: 8px 6px;
-    max-width: 106px;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 8px;
-    justify-content: end;
-    gap: 25px;
-    background-color: var(--accent);
-}
+/*.experience .experience-wrapper .experience-row .profile .profile-info .write-btn {*/
+/*    padding: 8px 6px;*/
+/*    max-width: 106px;*/
+/*    border-radius: 8px;*/
+/*    font-weight: 600;*/
+/*    font-size: 8px;*/
+/*    justify-content: end;*/
+/*    gap: 25px;*/
+/*    background-color: var(--accent);*/
+/*}*/
 
 
-.experience .experience-wrapper .experience-row .profile .profile-info .write-btn .arrow-min {
-    width: 11px;
-    height: 11px;
-    background-image: url('../../images/icons/arrow-min-icon.svg');
-}
+/*.experience .experience-wrapper .experience-row .profile .profile-info .write-btn .arrow-min {*/
+/*    width: 11px;*/
+/*    height: 11px;*/
+/*    background-image: url('../../images/icons/arrow-min-icon.svg');*/
+/*}*/
 
 /*=======================*/
 
