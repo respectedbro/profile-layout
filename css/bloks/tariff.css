@@ -1,4 +1,4 @@
-.tariff .tariff-wrapper {
+.tariff-wrapper {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -13,13 +13,13 @@
     margin-left: 24px;
 }
 
-.tariff .tariff-box {
+.tariff-box {
     display: flex;
     justify-content: space-between;
     gap: 32px;
 }
 
-.tariff .tariff-box .tariff-item {
+.tariff-item {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -30,32 +30,31 @@
     background-color: var(--accent);
 }
 
-.tariff .tariff-box .tariff-item .abs-btn{
+.tariff .abs-btn{
     position: absolute;
     top: -57px;
     right: 0;
-    padding: 14px;
-    max-width: 144px;
+    padding: 8px 14px;
     font-weight: 600;
     background-color: #000;
     font-size: 16px;
 }
 
-.tariff .tariff-box .tariff-item .tariff-info {
+.tariff-info {
     display: flex;
     flex-direction: column;
     gap: 18px;
     height: 100%;
 }
 
-.tariff .tariff-box .tariff-item .tariff-info .info-title {
+.info-title {
     font-weight: 600;
     font-size: 24px;
     line-height: 1.08333;
     color: #000;
 }
 
-.tariff .tariff-box .tariff-item .tariff-info .info-price {
+.tariff .info-price {
     font-weight: 800;
     font-size: 68px;
     line-height: 1.1;

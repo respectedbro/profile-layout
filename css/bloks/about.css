@@ -1,49 +1,56 @@
 
-.about .about-inner {
+.about-inner {
     display: flex;
     gap: 24px;
 
 }
 
-.about .about-inner .about-card {
+.about-card {
     border: 1px solid var(--accent);
     border-radius: 32px;
-    padding:  32px;
+    padding: 32px;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.about .about-inner .about-card {
-
+.about-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
-.about .about-inner .about-card .element-img{
+.about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.element-img {
     align-self: flex-start;
 }
 
-.about .about-inner .about-card .analytics-img{
+.analytics-img {
     align-self: center;
 }
 
-.about .about-inner .about-card .short-link-img{
+.short-link-img {
     align-self: flex-end;
 }
 
-.about .about-inner .about-card .title {
+.about .title {
     font-weight: 700;
     font-size: 42px;
     line-height: 1.28571;
-    padding: 24px 0 18px 0;
 }
 
-.about .about-inner .about-card .description {
+.about .description {
     font-size: 18px;
     line-height: 1.44444;
 }
 
 @media screen and (max-width: 1024px) {
-    .about .about-inner {
+    .about-inner {
         flex-wrap: wrap;
     }
 }

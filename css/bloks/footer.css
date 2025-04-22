@@ -1,32 +1,34 @@
 .footer {
-    margin-top: 80px;
+    margin: 80px 0 120px 0;
     padding-bottom: 64px;
 }
 
-.footer .footer-inner {
+.footer-inner {
     display: flex;
     flex-direction: column;
     gap: 100px;
 }
 
-.footer .footer-inner .footer-message {
-    align-self: flex-end;
+.footer-message {
+    position: fixed;
+    bottom: 64px;
+    right: calc(50% - 500px);
 }
 
-.footer .footer-inner .message-btn {
+.footer .message-btn {
     border: 1px solid #333;
     border-radius: 99px;
     padding: 16px;
     background-color: var(--accent);
 }
 
-.footer .footer-inner .footer-list {
+.footer-list {
     display: flex;
     justify-content: space-between;
     padding: 60px 0;
 }
 
-.footer .footer-inner .footer-list .footer-item {
+.footer-item {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -34,16 +36,16 @@
     width: 100%;
 }
 
-.footer .footer-inner .footer-list .footer-item .footer-link {
+.footer-link {
     font-size: 20px;
     color: #fff;
 }
 
-.footer .footer-inner .footer-list .footer-item.footer-socials {
+.footer-item.footer-socials {
     gap: 44px;
 }
 
-.footer .footer-inner .footer-list .footer-item.footer-socials .footer-logo{
+.footer-logo{
     display: flex;
     align-items: center;
     gap: 4px;
@@ -52,17 +54,32 @@
     color: #fff;
 }
 
-.footer .footer-inner .footer-list .footer-item.footer-socials .socials-list{
+.socials-list{
     display: flex;
     gap: 20px;
 }
 
 @media screen and (max-width: 1024px){
-    .footer .footer-inner .footer-list {
+    .footer-list {
         flex-wrap: wrap;
         gap: 24px;
     }
 
+}
+
+@media (max-width: 1000px) {
+    .footer-message {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .footer-message {
+        bottom: 20px;
+        right: 20px;
+    }
 }
 
 

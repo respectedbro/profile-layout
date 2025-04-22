@@ -1,156 +1,160 @@
 .hero {
-  position: relative;
-  margin-top: 80px;
-  display: flex;
-  justify-content: space-between;
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero-info {
-  max-width: 539px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
+    max-width: 539px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
 }
 
 .title-block {
-  display: flex;
-  flex-direction: column;
-  gap: 53px;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
 }
 
 .hero .title {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .hero .title h1 {
-  font-weight: 800;
-  font-size: 68px;
-  line-height: 1.1;
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 1.1;
 }
 
 .hero .title::before {
-  position: absolute;
-  bottom: -25px;
-  left: 56px;
-  content: "";
-  display: block;
-  width: 218px;
-  height: 26px;
-  background-image: url("../../images/design-pic/line.svg");
+    position: absolute;
+    bottom: -25px;
+    left: 56px;
+    content: "";
+    display: block;
+    width: 218px;
+    height: 26px;
+    background-image: url("../../images/design-pic/line.svg");
 }
 
-.hero .hero-info .title::after {
-  position: absolute;
-  top: -15px;
-  right: 12px;
-  content: "";
-  display: block;
-  width: 114px;
-  height: 64px;
-  background-image: url("../../images/design-pic/salyut.svg");
+.hero .hero-info .title h1::after {
+    position: absolute;
+    top: -15px;
+    right: 12px;
+    content: "";
+    display: block;
+    width: 114px;
+    height: 64px;
+    background-image: url("../../images/design-pic/salyut.svg");
 }
 
 .hero .hero-info .description {
-  position: relative;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.16667;
-  color: #fff;
+    position: relative;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16667;
+    color: #fff;
 }
 
 .input-wrapper {
-  display: flex;
-  gap: 24px;
+    display: flex;
+    gap: 24px;
 }
 
 .input-email {
-  border-radius: 18px;
-  padding: 18px 14px;
-  background-color: #fff;
-  max-width: 317px;
-  width: 100%;
-  color: #000;
+    border-radius: 18px;
+    padding: 18px 14px;
+    background-color: #fff;
+    max-width: 317px;
+    width: 100%;
+    color: #000;
 }
 
 .input-btn {
-  border-radius: 18px;
-  padding: 18px 14px;
-  max-width: 222px;
-  font-weight: 600;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--accent);
+    border-radius: 18px;
+    padding: 18px 14px;
+    max-width: 222px;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--accent);
 }
 
 .input-btn .arrow {
-  background-image: url("../../images/icons/arrow-icon.svg");
-  width: 24px;
-  height: 24px;
+    background-image: url("../../images/icons/arrow-icon.svg");
+    width: 24px;
+    height: 24px;
 }
 
 .hero-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%; /* или нужный размер */
-  height: 100%;
-  z-index: -1; /* Помещаем под контент */
-  opacity: 0.5; /* Прозрачность */
+    align-self: flex-start;
 }
 
 .hero-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* или cover */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
-/*@media screen and (max-width: 1024px) {*/
-/*  .hero .hero-inner .hero-img {*/
-/*    opacity: 0.1;*/
-/*    left: 46%;*/
-/*  }*/
-/*}*/
+@media screen and (max-width: 1024px) {
+    .hero-img {
+        position: absolute;
+        opacity: 0.1;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
 
-/*@media screen and (max-width: 768px) {*/
-/*  .hero .hero-inner .hero-img {*/
-/*    left: 40%;*/
-/*    top: 41%;*/
-/*  }*/
+@media screen and (max-width: 768px) {
 
-/*  .hero .hero-inner .title p {*/
-/*    font-weight: 700;*/
-/*    font-size: 42px;*/
-/*    line-height: 1.28571;*/
-/*  }*/
+    .hero .title h1 {
+        position: relative;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.28571;
+        color: #fff;
+        display: block;
+        max-width: 335px;
+    }
 
-/*  .hero .hero-inner .title::after {*/
-/*    top: 0;*/
-/*    right: 25px;*/
-/*    width: 34px;*/
-/*    height: 30px;*/
-/*    background-image: url("../../images/design-pic/salyut-mob.svg");*/
-/*  }*/
+    .hero .hero-info .title h1::after {
+        top: 0;
+        right: 20px;
+        width: 34px;
+        height: 30px;
+        background-image: url('../../images/design-pic/salyut-mob.svg');
+    }
 
-/*  .hero .hero-inner .title::before {*/
-/*    bottom: -20px;*/
-/*    left: 0;*/
-/*    width: 100.69px;*/
-/*    height: 20.78px;*/
-/*    background-image: url(../../images/design-pic/line-mobile.svg);*/
-/*  }*/
 
-/*  .hero .hero-inner .hero-img {*/
-/*    left: 30%;*/
-/*    top: 17%;*/
-/*    background-image: url("../../images/hero-pic-mobile.png");*/
-/*    width: 222px;*/
-/*    height: 227px;*/
-/*  }*/
+    .hero .hero-info .title::before {
+        bottom: -20px;
+        left: 0;
+        width: 100.69px;
+        height: 20.78px;
+        background-image: url('../../images/design-pic/line-mobile.svg');
+    }
 
-/*  .hero .hero-inner .input-wrapper {*/
-/*    flex-wrap: wrap;*/
-/*  }*/
-/*}*/
+    .input-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .hero-img {
+        position: absolute;
+        opacity: 0.1;
+        right: 42px;
+        top: -17px;
+        z-index: -1;
+    }
+
+}
+
+
+
+
+

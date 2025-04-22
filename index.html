@@ -53,39 +53,45 @@
             </div>
         </div>
         <div class="hero-img">
-            <img src="./images/hero-pic.png" alt="hero-picture">
+            <picture>
+                <source media="(max-width: 768px)" srcset="./images/hero-pic-mobile.png">
+                <img src="./images/hero-pic.png" alt="Hero picture">
+            </picture>
         </div>
     </section>
-    <section class="about">
-        <div class="container">
+    <section class="about container">
             <div class="about-inner">
                 <div class="about-card">
                     <div class="element-img">
                         <img src="./images/design-pic/custom-el-img.svg" alt="element-image">
                     </div>
-                    <div class="title"><h3>Кастомные элементы</h3></div>
-                    <div class="description">Создавай и кастомизируй свой профиль за считанные минуты!</div>
-                </div>
+                    <div class="about-info">
+                        <div class="title"><h3> Подробная аналитика</h3></div>
+                        <div class="description">Отслеживай информацию о том, кто и откуда интересовался твоим профилем</div>
+                    </div>
+                   </div>
                 <div class="about-card">
                     <div class="analytics-img">
                         <img src="./images/design-pic/analytics-img.svg" alt="analytics-image">
                     </div>
-                    <div class="title"><h3> Подробная аналитика</h3></div>
-                    <div class="description">Отслеживай информацию о том, кто и откуда интересовался твоим профилем
+                    <div class="about-info">
+                        <div class="title"><h3> Подробная аналитика</h3></div>
+                        <div class="description">Отслеживай информацию о том, кто и откуда интересовался твоим профилем</div>
                     </div>
+
                 </div>
                 <div class="about-card">
                     <div class="short-link-img">
                         <img src="./images/design-pic/short-link-img.svg" alt="short-link-image">
                     </div>
-                    <div class="title"><h3>Короткая ссылка</h3></div>
-                    <div class="description">Красивая персональная ссылка на профиль бесплатно!</div>
+                    <div class="about-info">
+                        <div class="title"><h3> Подробная аналитика</h3></div>
+                        <div class="description">Отслеживай информацию о том, кто и откуда интересовался твоим профилем</div>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
-    <section class="experience">
-        <div class="container">
+    <section class="experience container">
             <div class="experience-wrapper">
                 <div class="experience-row">
                     <img src="images/exp.png" alt="exp-image">
@@ -101,10 +107,8 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
-    <section class="tariff">
-        <div class="container">
+    <section class="tariff container">
             <div class="tariff-wrapper">
                 <div class="title">тарифы</div>
                 <div class="tariff-box">
@@ -158,56 +162,89 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
-    <section class="faq">
-        <div class="container">
-            <div class="faq-wrapper">
-                <div class="faq-title">faq</div>
-                <ul class="faq-list">
-                    <li>
-                        <div class="list-title">
-                            <h4>Зачем мне нужен Quicklink?</h4>
-                            <img src="./images/icons/faq-icon-minus.svg" alt="faq-icon-minus">
-                        </div>
-                        <div class="list-description">
-                            <p>Это единая ссылка, которую вы можете использовать, чтобы связать вашу аудиторию со всем,
-                                что
-                                вы делаете, и со всем, что вам небезразлично. Это позволяет делиться множеством ссылок в
-                                одной, чтобы ваши подписчики, посетители и клиенты могли найти все, что они ищут, в
-                                одном
-                                месте.</p>
-                            <p>Вы можете добавить ссылку на Quicklink на платформах социальных сетей, таких как Tiktok и
-                                Instagram, включить в подписи к электронной почте и даже отобразить в виде QR-кода,
-                                чтобы
-                                ваша офлайн-аудитория связалась с вами онлайн.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-title">
-                            <h4>Как я могу использовать свой профиль?</h4>
-                            <img src="./images/icons/faq-icon-plus.svg" alt="faq-icon-plus">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-title">
-                            <h4>Как много ссылок на профиль я могу создать?</h4>
-                            <img src="./images/icons/faq-icon-plus.svg" alt="faq-icon-plus">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-title">
-                            <h4>Что дает премиум подписка?</h4>
-                            <img src="./images/icons/faq-icon-plus.svg" alt="faq-icon-plus">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-title">
-                            <h4>Какие ограничения есть на базовом тарифе?</h4>
-                            <img src="./images/icons/faq-icon-plus.svg" alt="faq-icon-plus">
-                        </div>
-                    </li>
-                </ul>
+    <section class="faq container">
+        <div class="faq-wrapper">
+            <div class="faq-title">faq</div>
+            <div class="faq-list">
+                <details class="faq-item" open>
+                    <summary class="list-title">
+                        <h4>Зачем мне нужен Quicklink?</h4>
+                        <div class="faq-icon"></div>
+                    </summary>
+                    <div class="list-description">
+                        <p>Это единая ссылка, которую вы можете использовать, чтобы связать вашу аудиторию со всем,
+                            что вы делаете, и со всем, что вам небезразлично. Это позволяет делиться множеством ссылок в
+                            одной, чтобы ваши подписчики, посетители и клиенты могли найти все, что они ищут, в
+                            одном месте.</p>
+                        <p>Вы можете добавить ссылку на Quicklink на платформах социальных сетей, таких как Tiktok и
+                            Instagram, включить в подписи к электронной почте и даже отобразить в виде QR-кода,
+                            чтобы ваша офлайн-аудитория связалась с вами онлайн.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="list-title">
+                        <h4>Как я могу использовать свой профиль?</h4>
+                        <div class="faq-icon"></div>
+                    </summary>
+                    <div class="list-description">
+                        <p>Это единая ссылка, которую вы можете использовать, чтобы связать вашу аудиторию со всем,
+                            что вы делаете, и со всем, что вам небезразлично. Это позволяет делиться множеством ссылок в
+                            одной, чтобы ваши подписчики, посетители и клиенты могли найти все, что они ищут, в
+                            одном месте.</p>
+                        <p>Вы можете добавить ссылку на Quicklink на платформах социальных сетей, таких как Tiktok и
+                            Instagram, включить в подписи к электронной почте и даже отобразить в виде QR-кода,
+                            чтобы ваша офлайн-аудитория связалась с вами онлайн.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="list-title">
+                        <h4>Как много ссылок на профиль я могу создать?</h4>
+                        <div class="faq-icon"></div>
+                    </summary>
+                    <div class="list-description">
+                        <p>Это единая ссылка, которую вы можете использовать, чтобы связать вашу аудиторию со всем,
+                            что вы делаете, и со всем, что вам небезразлично. Это позволяет делиться множеством ссылок в
+                            одной, чтобы ваши подписчики, посетители и клиенты могли найти все, что они ищут, в
+                            одном месте.</p>
+                        <p>Вы можете добавить ссылку на Quicklink на платформах социальных сетей, таких как Tiktok и
+                            Instagram, включить в подписи к электронной почте и даже отобразить в виде QR-кода,
+                            чтобы ваша офлайн-аудитория связалась с вами онлайн.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="list-title">
+                        <h4>Что дает премиум подписка?</h4>
+                        <div class="faq-icon"></div>
+                    </summary>
+                    <div class="list-description">
+                        <p>Это единая ссылка, которую вы можете использовать, чтобы связать вашу аудиторию со всем,
+                            что вы делаете, и со всем, что вам небезразлично. Это позволяет делиться множеством ссылок в
+                            одной, чтобы ваши подписчики, посетители и клиенты могли найти все, что они ищут, в
+                            одном месте.</p>
+                        <p>Вы можете добавить ссылку на Quicklink на платформах социальных сетей, таких как Tiktok и
+                            Instagram, включить в подписи к электронной почте и даже отобразить в виде QR-кода,
+                            чтобы ваша офлайн-аудитория связалась с вами онлайн.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="list-title">
+                        <h4>Какие ограничения есть на базовом тарифе?</h4>
+                        <div class="faq-icon"></div>
+                    </summary>
+                    <div class="list-description">
+                        <p>Это единая ссылка, которую вы можете использовать, чтобы связать вашу аудиторию со всем,
+                            что вы делаете, и со всем, что вам небезразлично. Это позволяет делиться множеством ссылок в
+                            одной, чтобы ваши подписчики, посетители и клиенты могли найти все, что они ищут, в
+                            одном месте.</p>
+                        <p>Вы можете добавить ссылку на Quicklink на платформах социальных сетей, таких как Tiktok и
+                            Instagram, включить в подписи к электронной почте и даже отобразить в виде QR-кода,
+                            чтобы ваша офлайн-аудитория связалась с вами онлайн.</p>
+                    </div>
+                </details>
             </div>
         </div>
     </section>
@@ -223,7 +260,7 @@
                     </a>
                     <ul class="socials-list">
                         <li class="footer-link socials-item">
-                            <a href="#">
+                                <a href="#">
                                 <img src="/images/socials/fb.svg" alt="facebook-icon">
                             </a>
                         </li>

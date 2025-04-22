@@ -1,17 +1,17 @@
-.experience .experience-wrapper {
+.experience-wrapper {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.experience .experience-wrapper .experience-row {
+.experience-row {
     position: relative;
     display: flex;
     justify-content: center;
     gap: 135px;
 }
 
-.experience .experience-wrapper .experience-row .work-experience {
+.work-experience {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -23,31 +23,27 @@
     margin-top: 106px;
 }
 
-.experience .experience-wrapper .experience-row .work-experience h3 {
+.work-experience h3 {
     font-weight: 600;
     font-size: 17px;
     line-height: 1.08333;
     color: #aadb6b;
 }
 
-.experience .experience-wrapper .experience-row .work-experience .job-list {
+.job-list {
     display: flex;
     flex-direction: column;
     gap: 21px;
-
 }
 
-.experience .experience-wrapper .experience-row .work-experience .job-list .job {
 
-}
-
-.experience .experience-wrapper .experience-row .work-experience .job-list .job .company {
+.company {
     font-size: 17px;
     line-height: 1.16667;
 }
 
 
-.experience .experience-wrapper .experience-row .work-experience .job-list .job .company .period {
+.period {
     font-family: "Manrope", sans-serif;
     font-size: 13px;
     line-height: 1.44444;
@@ -55,7 +51,7 @@
 }
 
 
-.experience .experience-wrapper .experience-row .work-experience .job-list .job .company-link a {
+.company-link a {
     font-size: 13px;
     line-height: 1.44444;
     text-decoration: underline;
@@ -63,14 +59,14 @@
 }
 
 
-.experience .experience-wrapper .experience-row .work-experience .job-list .job .position {
+.position {
     font-size: 13px;
     line-height: 1.44444;
 }
 
 /*=======================*/
 
-.experience .experience-wrapper .experience-row .item {
+.experience .item {
     border-radius: 21px;
     padding: 20px;
     max-width: 220px;
@@ -81,26 +77,26 @@
     gap: 15.72px;
 }
 
-.experience .experience-wrapper .experience-row .item .project {
+.project {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.experience .experience-wrapper .experience-row .item .project .project-name {
+.project-name {
     font-weight: 700;
     font-size: 27px;
     line-height: 1.28571;
     color: #000;
 }
 
-.experience .experience-wrapper .experience-row .item .project .project-description {
+.project-description {
     font-size: 11px;
     line-height: 1.44444;
     color: #000;
 }
 
-.experience .experience-wrapper .experience-row .item .project .show-project {
+.show-project {
     border: 0.66px solid #333;
     border-radius: 12px;
     padding: 11px 9px;
@@ -113,7 +109,7 @@
     color: #000;
 }
 
-.experience .experience-wrapper .experience-row .item .project .show-project .arrow {
+.show-project .arrow {
     background-image: url('../../images/icons/arriwal-arrow.svg');
     width: 16px;
     height: 17px;
@@ -185,7 +181,7 @@
 
 /*=======================*/
 
-.experience .experience-wrapper .try-experience {
+.try-experience {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -195,15 +191,16 @@
     width: 100%;
 }
 
-.experience .experience-wrapper .try-experience .info {
+.experience .info {
     font-size: 24px;
     line-height: 1.16667;
 }
 
-.experience .experience-wrapper .try-experience .try-link {
+.try-link {
     align-self: flex-end;
 }
-.experience .experience-wrapper .try-experience .try-link a {
+
+.try-link a {
     max-width: 245px;
     width: 100%;
     color: #fff;
