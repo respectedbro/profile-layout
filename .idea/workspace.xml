@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59e9b474-63f1-4c81-80e9-49fabca118f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bloks/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bloks/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bloks/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bloks/faq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bloks/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bloks/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bloks/hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bloks/hero.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bloks/tariff.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bloks/tariff.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="59e9b474-63f1-4c81-80e9-49fabca118f7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745300514486</updated>
-      <workItem from="1745300516907" duration="14960000" />
+      <workItem from="1745300516907" duration="15267000" />
     </task>
     <servers />
   </component>
